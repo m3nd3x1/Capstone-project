@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Blue Lace Agate",
     "price": 1.99,
+    "description": "",
     "category": "Crystal",
     "image": "https://marjoriemendezcapstoneproject.s3.us-east-2.amazonaws.com/Images/agate.jpeg",
     "rating": {
@@ -14,6 +15,7 @@
     "id": 2,
     "title": "Amethyst",
     "price": 1.99,
+    "description": "",
     "category": "Crystal",
     "image": "https://marjoriemendezcapstoneproject.s3.us-east-2.amazonaws.com/Images/amethyst.jpeg",
     "rating": {
@@ -25,6 +27,7 @@
     "id": 3,
     "title": "Clear Quartz",
     "price": 2.99,
+    "description": "",
     "category": "Crystal",
     "image": "https://marjoriemendezcapstoneproject.s3.us-east-2.amazonaws.com/Images/quartz.jpeg",
     "rating": {
@@ -36,6 +39,7 @@
     "id": 4,
     "title": "Carnelian",
     "price": 1.99,
+    "description": "",
     "category": "Crystal",
     "image": "https://marjoriemendezcapstoneproject.s3.us-east-2.amazonaws.com/Images/carnelian.jpeg",
     "rating": {
@@ -45,8 +49,9 @@
   },
   {
     "id": 5,
-    "title": "Tiger Ey",
+    "title": "Tiger Eye",
     "price": 1.99,
+    "description": "",
     "category": "Crystal",
     "image": "https://marjoriemendezcapstoneproject.s3.us-east-2.amazonaws.com/Images/tiger-eye.jpeg",
     "rating": {
