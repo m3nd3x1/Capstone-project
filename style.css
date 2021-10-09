@@ -101,7 +101,7 @@ body {
   display: block;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 76px) {
   .navbar {
       display: flex;
       justify-content: space-between;
@@ -137,6 +137,7 @@ body {
   .nav-links:hover {
       color: rgba(255, 255, 255, 1);
   }
+}
   /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -226,8 +227,27 @@ body {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+/* @media only screen and (max-width: 300px) { */
+  /* .prev, .next,.text {font-size: 11px}
+} */
+
+/*Product page styling*/
+#container{
+  max-width: 60rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+
+
+}
+.product{
+  color: #c16ecf;
+}
+.product img{
+  width: 200px;
+  height: 200px;
 }
 /*footer styling */
 .footer{
@@ -244,66 +264,8 @@ body {
   padding-top: 1rem;
 }
 
-.icons a{
-  text-decoration: none;
-  font-size: 2rem;
-  margin: 0.5rem;
-  color: #ffffff;
-}
-
 .company-name{
   font-size: 1.6rem;
   margin-top: 0.5rem;
 }
 
-@media (max-width: 500px){
-  html{
-      font-size: 50%;
-  }
-}    
-
-@media(min-width: 501px) and (max-width: 768px){
-  html{
-  font-size: 50%;
-  }
-}
-  
-  /* Media Queries */
-@media screen and (min-width: 992px){
-  .product-items{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-  }
-  .product-col-r-bottom{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (min-width: 1200px){
-  .product-items{
-      grid-template-columns: repeat(3, 1fr);
-  }
-  .product{
-      margin-right: 1rem;
-      margin-left: 1rem;
-  }
-  .products .text-light{
-      width: 50%;
-  }
-}
-
-@media screen and (min-width: 1336px){
-  .product-items{
-      grid-template-columns: repeat(4, 1fr);
-  }
-  .product-collection-wrapper{
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-  }
-  .flex{
-      height: 60vh;
-  }
-  .product-col-left{
-      height: 121.5vh;
-  }
-}
